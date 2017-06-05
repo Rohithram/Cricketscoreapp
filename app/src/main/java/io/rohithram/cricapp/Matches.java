@@ -1,6 +1,5 @@
 package io.rohithram.cricapp;
 
-import static io.rohithram.cricapp.R.id.time;
 
 /**
  * Created by rohithram on 4/6/17.

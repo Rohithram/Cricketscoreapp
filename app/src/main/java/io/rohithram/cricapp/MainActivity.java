@@ -1,6 +1,5 @@
 package io.rohithram.cricapp;
 
-import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,12 +9,10 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.rohithram.cricapp.R.id.tv_teams;
 
 public class MainActivity extends AppCompatActivity {
     RecyclerView rv_list;

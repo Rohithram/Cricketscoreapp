@@ -4,13 +4,11 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +34,6 @@ public class Main2Activity extends AppCompatActivity {
         getscore.execute("http://cricapi.com/api/cricketScore","ij6Z9JWp8CcNCWJVGdvRTbWxS1C2",id);
 
         TextView tv_matchname = (TextView) findViewById(R.id.tv_matchname);
-        CardView cv_scores = (CardView)findViewById(R.id.cv_scores);
 
 
         tv_matchname.setText(h1);
